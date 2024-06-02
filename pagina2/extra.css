@@ -8,8 +8,9 @@
     padding: 10px;
     background-clip: padding-box;
     cursor: pointer;
-    line-height: 5px;
+    line-height: 15px;
     text-decoration: none;
+    margin-bottom: 10px;
 }
 div > .botao-submenu {
     display: none;
