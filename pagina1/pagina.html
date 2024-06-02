@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manutenção</title>
+    <title>Pagina 1</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <div class="painel">
-        <p>
-            Em Manutenção...
-        </p>
+        <h1>Foto</h1>
+        <picture>
+            <source srcset="./Photo.jpg" type="image/jpg">
+            <img src="./Photo.jpg" alt="imagem flexivel">
+        </picture>
+        <hr>
+        <h1>Audio</h1>
+        <audio src="./Music.mp3" controls></audio>
+        <hr>
+        <h1>Video</h1>
+        <video width="300" poster="./Photo.jpg" loop controls>
+            <source src="./video.mp4" type="video/mp4">
+        </video>
+        <hr>
         <a href="../index.html" class="botao" title="voltar">Voltar</a>
     </div>
 </body>
