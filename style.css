@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(145deg, #100421, #2A124A 10%, #5e398f, #AA8CD0);
+    background-size: 100% 120%;
+    background-position: center;
+    font-size: 16px;
+}
+h1, h2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.painel {
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(145deg, #291446, #2A124A 10%, #5e398f, #7958a3);
+    padding: 20px;
+    background-clip: padding-box;
+    box-shadow: 0 0 10px white;
+    text-align: center;
+}
+.botao {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #7958a3;
+    padding: 10px;
+    background-clip: padding-box;
+    cursor: pointer;
+    line-height: 45px;
+    text-decoration: none;
+}
+.botao:hover {
+    background-color: #AA8CD0;
+}
