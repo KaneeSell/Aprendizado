@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
     font-family: Rubik Dirt;
-    src: url(./fonts/RubikDirt-Regular.ttf); format ('truetype');
+    src: url(./fonts/RubikDirt-Regular.ttf); format: ('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -17,10 +17,12 @@ body {
     background-size: 100% 120%;
     background-position: center;
     font-size: 30px;
+    text-shadow: 2px 2px 8px #000000c7;
 }h1, h2 {
     font-family: "Rubik Dirt", system-ui;
     font-weight: 400;
     font-style: normal;
+    margin: 10px;
 }.painel {
     color: white;
     border-radius: 10px;
